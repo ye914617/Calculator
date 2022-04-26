@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+.screen {
+  background-color: rgb(35, 41, 41);
+  color: white;
+}
+
+.button {
+  color: rgb(218, 205, 205);
+  background-color: rgb(35, 41, 41);
+  font-weight: bold;
+  border: 1px solid #f3d42e;
+  border-radius: 5%;
+  height: 4rem;
+  font-size: 1.75rem;
+  box-shadow: 3px 3px #f3d42e;
+}
